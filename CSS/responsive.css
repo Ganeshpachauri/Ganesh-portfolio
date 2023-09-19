@@ -1,0 +1,652 @@
+@media(max-width:1300px) {
+    .slok .slokcontent {
+        font-size: 1.6rem;
+    }
+
+    .aboutme .abt-content p {
+        max-height: 250px;
+        margin-top: 25px;
+        letter-spacing: 0;
+    }
+
+    .aboutme {
+        height: 1050px;
+    }
+}
+
+@media(max-width:1150px) {
+    .header_wrapper .nav-item {
+        margin: 0 5px;
+    }
+
+    .header_wrapper .nav-item .nav-link {
+        font-size: 16px;
+    }
+
+    .title {
+        font-size: 36px;
+    }
+
+    .welcome_wrraper .welcome {
+        height: 300px;
+    }
+
+    .welcome_wrraper .welcome .img img {
+        margin-left: 10%;
+        height: 150px;
+        width: 175px;
+    }
+
+    .slok .slokcontent {
+        font-size: 21px;
+    }
+
+    .slok .slokcontent #vakr {
+        margin-left: 0;
+    }
+
+    .slok .slokcontent #gauri {
+        margin-left: 49%;
+    }
+
+    .welcome_wrraper .welcome .greeting {
+        font-size: 2.5rem;
+    }
+
+    .home_wrraper {
+        height: 500px;
+        padding: 0;
+    }
+
+    .home_wrraper .content {
+        font-size: 1.8rem;
+    }
+
+    .aboutme .abt-content p {
+        max-height: 200px;
+        margin-top: 5px;
+        font-size: 12px;
+
+    }
+
+    .aboutme .aboutimg img {
+        height: 260px;
+    }
+
+    .aboutme {
+        height: 1000px;
+    }
+
+    .edu-left {
+        height: 300px;
+        width: 210px;
+    }
+
+    .education_wrapper {
+        height: 1000px;
+    }
+
+    .education_wrapper .edu {
+        height: 400px;
+    }
+
+    .edu-left h1 {
+        font-size: 1.3rem;
+    }
+
+    .edu-left h3 {
+        margin-top: 0;
+        font-size: 15px;
+    }
+
+    .project-content .prj-heading {
+        font-size: 2.4rem;
+    }
+
+    .project-content .content ul li {
+        font-size: 1rem;
+    }
+}
+
+@media(max-width:991px) {
+    .header_wrapper .nav-item .nav-link {
+        font-size: 14px;
+        line-height: 1;
+    }
+
+    .title {
+        font-size: 32px;
+    }
+
+    .welcome_wrraper .welcome {
+        height: 240px;
+    }
+
+    .welcome_wrraper .welcome .img img {
+        margin-left: 10%;
+        height: 120px;
+        width: 125px;
+    }
+
+    .slok .slokcontent {
+        font-size: 18px;
+    }
+
+    .slok .slokconten #vakr {
+        margin-left: 0;
+    }
+
+    .slok .slokcontent #gauri {
+        margin-left: 48%;
+        margin-top: 0;
+    }
+
+    .welcome_wrraper .welcome .greeting {
+        font-size: 2rem;
+    }
+
+    .home_wrraper {
+        height: 400px;
+    }
+
+    .home_wrraper .content {
+        font-size: 1.5rem;
+    }
+
+    .home_wrraper .pic {
+        height: 100%;
+        width: 100%;
+    }
+
+    .heading {
+        font-size: 1.6rem;
+    }
+
+    .subheading {
+        font-size: 1.4rem;
+    }
+
+    .flip-card {
+        height: 250px;
+        width: 175px;
+    }
+
+    .flip-card-back p {
+        font-size: 12px;
+    }
+
+    .text-overlay {
+        font-size: 14px;
+    }
+
+    .aboutme {
+        height: 950px;
+    }
+
+    .skill_wrapper {
+        height: 1400px;
+    }
+
+    .skill_wrapper .lk {
+        height: 400px;
+    }
+
+    .skill_wrapper .lk .row {
+        padding: 52px 0;
+    }
+
+    span.name {
+        font-size: 1.8rem;
+    }
+
+    span.lang-knowlegde {
+        margin-top: 1px;
+        font-size: 0.6rem;
+    }
+
+    .lang-about:hover {
+        width: 350px;
+    }
+
+    .skill_wrapper .sk {
+        height: 600px;
+    }
+
+    .skill_wrapper .sk .row {
+        padding: 50px 0;
+    }
+
+    .skill_wrapper .skill-heading span {
+        font-size: 1.6rem;
+        padding: 15px 0;
+    }
+
+    .project_wrapper {
+        height: 1470px;
+    }
+
+    .project_wrapper .a {
+        height: 400px;
+    }
+
+    .project-content .prj-heading {
+        font-size: 1.8rem;
+    }
+
+    .project-content .content ul li {
+        font-size: 12px;
+    }
+
+    .contact_wrapper {
+        height: 540px;
+    }
+
+    .contact_wrapper .titles {
+        font-size: 2.5rem;
+    }
+
+    .contact-content {
+        height: 200px;
+    }
+}
+
+@media(max-width:768px) {
+    .header_wrapper .nav-item .nav-link {
+        font-size: 12px;
+        line-height: .8;
+
+    }
+
+    .title {
+        font-size: 26px;
+    }
+
+    .welcome_wrraper .welcome {
+        height: 200px;
+    }
+
+    .welcome_wrraper .welcome .img img {
+        margin-left: 10%;
+        height: 100px;
+        width: 110px;
+    }
+
+    .slok .slokcontent {
+        font-size: 14px;
+    }
+
+    .slok .slokconten #vakr {
+        margin-left: 0;
+    }
+
+    .slok .slokcontent #gauri {
+        margin-left: 48%;
+        margin-top: 0;
+    }
+
+    .welcome_wrraper .welcome .greeting {
+        font-size: 1.5rem;
+    }
+
+    .home_wrraper {
+        height: 500px;
+        align-items: start;
+    }
+
+    .home_wrraper .pic {
+        height: 50%;
+        width: 50%;
+    }
+
+    .home_wrraper .leftsection {
+        margin-top: -100px;
+        height: 50%;
+    }
+
+    .home_wrraper .content {
+        padding-top: 150px;
+        font-size: 1.6rem;
+    }
+
+    .heading {
+        border-radius: 50px;
+    }
+
+    .aboutme .aboutimg {
+        display: flex;
+        justify-content: center;
+    }
+
+    .aboutme .aboutimg img {
+        width: 40%;
+        height: auto;
+    }
+
+    .flip-card {
+        height: 150px;
+        width: 115px;
+    }
+
+    .flip-card-back p {
+        font-size: 8px;
+    }
+
+    .aboutme {
+        height: 1150px;
+    }
+
+    .education_wrapper {
+        height: 900px;
+    }
+
+    .edu-left {
+        height: 250px;
+        width: 175px;
+    }
+
+    .education_wrapper .edu {
+        height: 350px;
+    }
+
+    .edu-left h1 {
+        font-size: 1.1rem;
+    }
+
+    .edu-left h3 {
+        font-size: 12px;
+    }
+
+    .skill_wrapper {
+        height: 1620px;
+    }
+
+    .skill_wrapper .lk {
+        height: 480px;
+    }
+
+    .skill_wrapper .sk {
+        height: 720px;
+    }
+
+    .skill_wrapper .lk .row {
+        padding: 0;
+    }
+
+    .skill_wrapper .lk .row .lang-m {
+        padding: 10px 0;
+    }
+
+    .skill_wrapper .sk .row {
+        padding: 0;
+    }
+
+    .skill_wrapper .sk .row .lang-m {
+        padding: 10px 0;
+    }
+
+    span.name {
+        font-size: 2.5rem;
+    }
+
+    span.lang-knowlegde {
+        font-size: 0.8rem;
+    }
+
+    .lang-about:hover {
+        width: 400px;
+    }
+
+    .skill_wrapper .skill-heading span {
+        border-radius: 20px 20px 0 0;
+    }
+
+    .project-content .content ul li {
+        font-size: 12px;
+    }
+
+    .footer-content {
+        font-size: 16px;
+    }
+
+}
+
+@media(max-width:576px) {
+    .header_wrapper .nav-item .nav-link {
+        font-size: 10px;
+        line-height: .4;
+    }
+
+    .title {
+        font-size: 16px;
+    }
+
+    .welcome_wrraper .welcome {
+        height: 180px;
+    }
+
+    .slok .slokcontent {
+        font-size: 14px;
+    }
+
+    .slok .slokconten #vakr {
+        margin-left: 0;
+        margin-left: 1%;
+    }
+
+    .slok .slokcontent #gauri {
+        margin-left: 32%;
+        margin-top: 0;
+    }
+
+    .welcome_wrraper .welcome .greeting {
+        font-size: 14px;
+    }
+
+    .home_wrraper {
+        height: 400px;
+    }
+
+    .home_wrraper .pic {
+        height: 50%;
+        width: 50%;
+    }
+
+    .home_wrraper .content {
+        margin-bottom: 200px;
+        font-size: 1.3rem;
+    }
+
+    .heading {
+        font-size: 1.4rem;
+    }
+
+    .subheading {
+        font-size: 1.2rem;
+    }
+
+    .aboutme {
+        height: 1050px;
+    }
+
+    .aboutme .abt-content p {
+        max-height: 150px;
+        margin-top: 5px;
+        font-size: 10px;
+    }
+
+    .education_wrapper {
+        height: 800px;
+    }
+
+    .edu-left {
+        height: 200px;
+        width: 140px;
+    }
+
+    .education_wrapper .edu {
+        height: 300px;
+    }
+
+    .edu-left h1 {
+        font-size: .8rem;
+    }
+
+    .edu-left h3 {
+        font-size: 10px;
+    }
+
+    span.name {
+        font-size: 1.6rem;
+    }
+
+    span.lang-knowlegde {
+        margin-top: 1px;
+        font-size: 0.6rem;
+    }
+
+    .lang-about:hover {
+        width: 320px;
+    }
+
+    .skill_wrapper {
+        height: 1550px;
+    }
+
+    .skill_wrapper .skill-heading span {
+        font-size: 1.2rem;
+        padding: 10px 0;
+    }
+
+    .project_wrapper {
+        height: 1110px;
+    }
+
+    .project_wrapper .a {
+        height: 280px;
+    }
+
+    .project-content .prj-heading {
+        font-size: 18px;
+    }
+
+    .project-content .content {
+        font-size: 10px;
+    }
+
+    .btn {
+        font-size: 10px;
+        padding: 5px 14px;
+    }
+
+    .contact_wrapper {
+        height: 540px;
+    }
+
+    .contact_wrapper .titles {
+        font-size: 2rem;
+    }
+
+    .contact-content {
+        height: 200px;
+        width: 100%;
+    }
+
+    .resume .btn {
+        padding: 10px 25px;
+        font-size: 16px;
+    }
+
+    .footer-content {
+        font-size: 12px;
+    }
+}
+
+@media(max-width:370px) {
+    .slok .slokcontent {
+        font-size: 10px;
+    }
+
+    .home_wrraper {
+        height: 350px;
+    }
+
+    .home_wrraper .pic {
+        height: 60%;
+        width: 60%;
+    }
+
+    .home_wrraper .content {
+        margin-bottom: 100px;
+        font-size: 1rem;
+    }
+
+    .aboutme {
+        height: 1020px;
+    }
+
+    .edu-left {
+        height: 160px;
+        width: 122px;
+    }
+
+    .education_wrapper .edu {
+        height: 200px;
+    }
+
+    .edu-left h1 {
+        margin-top: 2px;
+        font-size: .6rem;
+    }
+
+    .edu-left h3 {
+        margin-top: -2px;
+        font-size: 8px;
+    }
+
+    .education_wrapper {
+        height: 600px;
+    }
+
+    span.name {
+        font-size: 1.4rem;
+    }
+
+    span.lang-knowlegde {
+        margin-top: 1px;
+        font-size: 0.6rem;
+    }
+
+    .lang-about:hover {
+        width: 220px;
+    }
+
+    .lang-check {
+        display: none;
+    }
+
+    .skill_wrapper .skill-heading span {
+        font-size: 14px;
+        padding: 10px 0;
+    }
+
+    .project_wrapper {
+        height: 1030px;
+    }
+
+    .project_wrapper .a {
+        height: 250px;
+    }
+
+    .project-content .prj-heading {
+        font-size: 10px;
+    }
+
+    .project-content .content {
+        font-size: 8px;
+    }
+
+    .btn {
+        font-size: 8px;
+        padding: 2px 8px;
+    }
+}

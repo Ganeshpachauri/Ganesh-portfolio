@@ -4,500 +4,818 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title> Ganesh- Portfolio</title>
+    <title> Ganesh's Portfolio</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link
         href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Poppins:wght@400;600;700&display=swap"
         rel="stylesheet">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
-    <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="responsive.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <link rel="stylesheet" href="./CSS/style.css">
+    <link rel="stylesheet" href="./CSS/responsive.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css"
+        integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
+
 </head>
 
-<body>
-    <header>
-        <nav>
-            <div class="left">Ganesh's Portfolio</div>
-            <div class="right">
-                <ul>
-                    <li><a href="#Home"> Home</a></li>
-                    <li><a href="#AboutMe"> About Me</a></li>
-                    <li><a href="#Education">Education</li><a>
-                        <li><a href="#Skiils">Skills</li><a>
-                            <li><a href="#Projects">Projects</li><a>
-                                <li><a href="#ContactMe">Contact Me</a></li>
-                </ul>
+<body data-bs-spy="scroll" data-bs-target=".navbar" data-bs-offset="75">
+    <header class="header_wrapper">
+        <nav class="navbar navbar-expand-lg fixed-top">
+            <div class="container-fluid bar">
+                <a class="navbar-brand " href="#">
+                    <span class="title ">Ganesh's Portfolio</span>
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+                    <ul class="navbar-nav menu-navbar-nav align-items-center">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#Home">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#AboutMe">About Me</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#Education">Education</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link " href="#Skills">Skills</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link " href="#Projects">Projects</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#ContactMe">Contact Me</a>
+                        </li>
+                    </ul>
+                </div>
             </div>
         </nav>
     </header>
-    <a name="Home">
-        <main>
-    </a>
-    <section class="welcome">
-        <div class="slok">
-            <div class="imagewel">
-                <img src="./assets/nameste.png" alt="">
-            </div>
-            <div class="slokcontent">
-                <span id="vakr"></span><br>
-                <span id="gauri"></span>
 
+    <section class="welcome_wrraper" id="Home">
+        <div class="container-fluid welcome">
+            <div class="row r1">
+                <div class="col-sm-2 col-lg-3 d-none d-sm-flex  justify-content-start align-items-start p-0">
+                    <div class="img">
+                        <img src="./Assets/nameste.png" alt="">
+                    </div>
+                </div>
+                <div class=" col-12 col-sm-10 col-lg-9">
+                    <div class="slok ">
+                        <div class="slokcontent d-flex flex-column  align-items-start">
+                            <span id="vakr"></span><br>
+                            <span id="gauri"></span>
+                        </div>
+                    </div>
+                </div>
             </div>
-        </div>
-        <div class="greeting">
-            <span id="greet"></span>
+            <div class="row r2">
+                <div class="col-12 d-flex justify-content-center align-items-center">
+                    <div class="greeting">
+                        <span id="greet"></span>
+                    </div>
+
+                </div>
+            </div>
         </div>
     </section>
-    <section class="firstsection">
-        <div class="leftsection">
-            <div class="background">
-                Hi, My name is <span class="purple">Ganesh</span>
-                <div>and I am a passionate </div>
-                <span id="element"></span>
-                <span class="purple">.</span>
+    <section class="home_wrraper " style="background-color:  #a5f4d9 ; border-radius: 50px;">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-md-6  col-12 order-2 order-md-1 ">
+                    <div class="leftsection d-flex justify-content-center align-items-md-center align-items-start ">
+                        <div class="content">
+                            Hi, My name is <span class="purple">Ganesh</span>
+                            <div>and I am a passionate </div>
+                            <span id="element"></span>
+                            <span class="purple">.</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-12 order-1 order-md-2 d-flex justify-content-center align-items-center">
+                    <div class="pic  d-flex justify-content-center align-items-center">
+                        <div class="image d-flex justify-content-center align-items-center">
+                            <img src="./Assets/ganesh.png" alt="">
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
-        <div class="rightsection">
-            <img src="./assets/bg.png" alt="">
+    </section>
+    <hr>
+
+    <section class="aboutme" id="AboutMe">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-12 d-flex justify-content-md-start align-items-center justify-content-center">
+                    <span class="heading odd">
+                        Know About me
+                    </span>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="aboutimg">
+                        <img src="./Assets/about-pic.png" alt="">
+                    </div>
+                </div>
+                <div class="col-md-8">
+                    <div class="aboutme-content">
+                        <div class="subheading d-flex justify-content-md-center align-items-center p-1">
+                            <span>Hello! I'm Ganesh Pachauri</span>
+                        </div>
+                        <div class="abt-content">
+                            <p class="d-none d-md-flex">A Computer Science enthusiast hailing from the sacred city of
+                                Mathura, where Lord Krishna
+                                took his
+                                first steps. This spiritual and culturally rich environment has not only shaped my roots
+                                but also
+                                fueled my passion for technology and innovation. <br>
+                                Currently, I'm on a captivating journey as a Computer Science student. The world of code
+                                and
+                                algorithms has always fascinated me, and I'm dedicated to mastering the art of crafting
+                                elegant
+                                solutions to complex problems. Whether it's designing user-friendly interfaces or diving
+                                into the
+                                intricacies of data structures, I find joy in every aspect of this ever-evolving field.
+                                <br>
+                                In the realm of technology, I'm a firm believer in the power of continuous learning. I'm
+                                committed to
+                                staying at the forefront of the latest trends and innovations, striving to make a
+                                significant impact
+                                with my skills.These activities not only provide a refreshing escape but also inspire
+                                creativity and critical
+                                thinking, which I bring to my academic and personal projects. <br>
+                                As you explore my portfolio, you'll gain insight into my journey as a Computer Science
+                                student and my
+                                endeavors in the world of technology. If you're as passionate about technology as I am
+                                or simply
+                                wish to connect and exchange ideas, please don't hesitate to reach out. Let's embark on
+                                this
+                                exciting tech adventure together! <br>
+                                Thank you for visiting my portfolio, and I'm eagerly looking forward to connecting with
+                                fellow tech
+                                enthusiasts like you.
+                            </p>
+                            <p class="d-md-none d-flex">
+                                I'm a Computer Science enthusiast from Mathura, a city with spiritual significance tied
+                                to Lord Krishna. Currently, as a Computer Science student, I'm dedicated to mastering
+                                the art of crafting elegant solutions to complex problems, whether it's designing
+                                user-friendly interfaces or delving into data structures. I believe in continuous
+                                learning, staying at the forefront of tech trends, and making a significant impact with
+                                my skills. My pursuits not only provide a refreshing escape but also inspire creativity
+                                and critical thinking, which I apply to academic and personal projects. Explore my
+                                portfolio for insights into my journey and tech endeavors, and let's connect to share
+                                our passion for technology.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row flip-img justify-content-md-evenly  align-items-center">
+                <div class="col-md-3 d-flex justify-content-start align-items-center">
+                    <div class="flip-card">
+                        <div class="flip-card-inner">
+                            <div class="flip-card-front">
+                                <div class="image-overlay">
+                                    <img src="./assets/flip1.jpg">
+                                    <div class="text-overlay">
+                                        <p>Nature</p>
+
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="flip-card-back">
+                                <p>I cherish friendships and prioritize others, always striving to contribute and give
+                                    my
+                                    very
+                                    best in every endeavor.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3 d-flex justify-content-center align-items-center">
+                    <div class="flip-card">
+                        <div class="flip-card-inner">
+                            <div class="flip-card-front">
+                                <div class="image-overlay">
+                                    <img src="./assets/flip2.jpg">
+                                    <div class="text-overlay">
+                                        <p>Hobbies</p>
+
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="flip-card-back">
+                                <p>Cricket and football fan who's always on the hunt for cutting-edge technology to stay
+                                    updated
+                                    and engaged with the digital world.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3 d-flex justify-content-end align-items-center">
+                    <div class="flip-card">
+                        <div class="flip-card-inner">
+                            <div class="flip-card-front">
+                                <div class="image-overlay">
+                                    <img src="./assets/flip3.jpeg">
+                                    <div class="text-overlay">
+                                        <p>Vision</p>
+
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="flip-card-back">
+                                <p>I envision a life where I succeed personally and contribute significantly to society,
+                                    working
+                                    tirelessly to serve both humanity and my nation, fostering growth and well-being.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
         </div>
     </section>
     <hr>
-    </main>
-    <a name="AboutMe">
-        <main>
-    </a>
-    <section class="aboutme">
-        <section class="aboutme-top">
-            <div class="aboutme-top-left">
-                <img src="./assets/about-pic.png" alt="Mathura Image">
-            </div>
-            <div class="aboutme-top-right">
-                <h1>Namaste! I'm Ganesh Pachauri</h1>
-                <p>A Computer Science enthusiast hailing from the sacred city of Mathura, where Lord Krishna took his
-                    first steps. This spiritual and culturally rich environment has not only shaped my roots but also
-                    fueled my passion for technology and innovation.</p>
-                <p>Currently, I'm on a captivating journey as a Computer Science student. The world of code and
-                    algorithms has always fascinated me, and I'm dedicated to mastering the art of crafting elegant
-                    solutions to complex problems. Whether it's designing user-friendly interfaces or diving into the
-                    intricacies of data structures, I find joy in every aspect of this ever-evolving field.</p>
-                <p>In the realm of technology, I'm a firm believer in the power of continuous learning. I'm committed to
-                    staying at the forefront of the latest trends and innovations, striving to make a significant impact
-                    with my skills.</p>
-                <p>These activities not only provide a refreshing escape but also inspire creativity and critical
-                    thinking, which I bring to my academic and personal projects.</p>
-                <p>As you explore my portfolio, you'll gain insight into my journey as a Computer Science student and my
-                    endeavors in the world of technology. If you're as passionate about technology as I am or simply
-                    wish to connect and exchange ideas, please don't hesitate to reach out. Let's embark on this
-                    exciting tech adventure together!</p>
-                <p>Thank you for visiting my portfolio, and I'm eagerly looking forward to connecting with fellow tech
-                    enthusiasts like you.</p>
-            </div>
-        </section>
-        <section class="aboutme-bottom">
-            <div class="flip-card">
-                <div class="flip-card-inner">
-                    <div class="flip-card-front">
-                        <div class="image-overlay">
-                            <img src="./assets/flip1.jpg">
-                            <div class="text-overlay">
-                                <p>Nature</p>
-                                <div class="button"></div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="flip-card-back">
-                        <p>I cherish friendships and prioritize others, always striving to contribute and give my very
-                            best in every endeavor.</p>
-                    </div>
-                </div>
-            </div>
-            <div class="flip-card">
-                <div class="flip-card-inner">
-                    <div class="flip-card-front">
-                        <div class="image-overlay">
-                            <img src="./assets/flip2.jpg">
-                            <div class="text-overlay">
-                                <p>Hobbies</p>
-                                <div class="button"></div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="flip-card-back">
-                        <p>Cricket and football fan who's always on the hunt for cutting-edge technology to stay updated
-                            and engaged with the digital world.</p>
-                    </div>
-                </div>
-            </div>
-            <div class="flip-card">
-                <div class="flip-card-inner">
-                    <div class="flip-card-front">
-                        <div class="image-overlay">
-                            <img src="./assets/flip3.jpeg">
-                            <div class="text-overlay">
-                                <p>Vision</p>
-                                <div class="button"></div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="flip-card-back">
-                        <p>I envision a life where I succeed personally and contribute significantly to society, working
-                            tirelessly to serve both humanity and my nation, fostering growth and well-being.</p>
-                    </div>
-                </div>
-            </div>
-        </section>
-    </section>
-    <hr>
-    </main>
-    <a name="Education">
-        <main>
-    </a>
-    <section class="edu">
-        <section class="edu-top">
-            <div class="edu-left">
-                <a href="https://sjbsvm.exattosoft.com/" target="_blank">
-                    <h1>Shriji Baba Saraswati Vidya Mandir</h1>
-                </a>
-                <h3>Completed my 10th grade education with distinction in 2017, achieving a remarkable CGPA of 9.8.</h3>
-                <div class="cover">
-                    <div class="cover-front">
-                        <div class="img_box">
-                            <img src="./assets/shriji.jpeg"></a>
-                        </div>
-                    </div>
-                    <div class="cover-back">
-                        <h1>Secondary</h1>
-                    </div>
-                </div>
-            </div>
-            <div class="edu-left">
-                <a href="https://sjbsvm.exattosoft.com/" target="_blank">
-                    <h1>Shriji Baba Saraswati Vidya Mandir</h1>
-                </a>
-                <h3>I graduated from the 12th grade in 2019 with distinction, achieving a notable percentage of 90.8%,
-                    highlighting my dedication to scholastic success.</h3>
-                <div class="cover">
-                    <div class="cover-front">
-                        <div class="img_box">
-                            <img src="./assets/shriji2.jpeg"></a>
-                        </div>
-                    </div>
-                    <div class="cover-back">
-                        <h1> Higher Secondary</h1>
-                    </div>
-                </div>
-            </div>
-        </section>
-        <section class="edu-bottom">
-            <div class="edu-left">
-                <a href="https://dbrau.ac.in//" target="_blank">
-                    <h1>Dr Bhimrao Ambedkar University</h1>
-                </a>
-                <h3>Successfully completed my graduation in B.Sc(PCM) in 2022, demonstrating determination and
-                    commitment to academic growth</h3>
-                <div class="cover">
-                    <div class="cover-front">
-                        <div class="img_box">
-                            <img src="./assets/dbrau.jpeg">
-                        </div>
-                    </div>
-                    <div class="cover-back">
-                        <h1>Gradution</h1>
-                    </div>
-                </div>
-            </div>
-            <div class="edu-left">
-                <a href="https://www.bsacet.org/" target="_blank">
-                    <h1>B.S.A College of Engineering and Technology</h1>
-                </a>
-                <h3>Currently pursuing my Master of Computer Applications (MCA) with a CGPA of 8.06, demonstrating a
-                    strong commitment to academic excellence and a passion for computer science.</h3>
-                <div class="cover">
-                    <div class="cover-front">
-                        <div class="img_box">
-                            <img src="./assets/bsacet.jpeg">
-                        </div>
-                    </div>
-                    <div class="cover-back">
-                        <h1>Post Gradution</h1>
-                    </div>
-                </div>
-            </div>
-        </section>
-    </section>
-    <hr>
-    </main>
-    <a name="Skiils">
-        <main>
-    </a>
-    <section class="skills">
-        <section class="language-known">
-            <nav class="skill">
-                Language Known
-            </nav>
-            <div class="lang-control">
-                <div class="lang-left">
-                    <div class="lang-m">
-                        <div class="lang">
-                            <div class="lang-detail">
-                                <div class="lang-about">
-                                    <img src="./assets/c.png">
-                                    <div class="lang-name">
-                                        <div class="name-contain">
-                                            <span class="name c">C</span>
-                                            <span class="lang-knowlegde"> Advanced</span>
-                                        </div>
-                                        <div class="lang-check adv">
-                                            <img src="./assets/checkmark.png">
-                                            <img src="./assets/checkmark.png">
-                                            <img src="./assets/checkmark.png">
 
-                                        </div>
-                                    </div>
+    <section class="education_wrapper" id="Education">
+        <div class="container-fluid">
+            <div class="row ">
+                <div class="col-12 d-flex justify-content-md-end align-items-center justify-content-center">
+                    <span class="heading even">
+                        EDUCATIONAL BACKGROUND
+                    </span>
+                </div>
+            </div>
+            <div class="subheading d-flex justify-content-center align-items-center p-0 m-0">
+                <span>Schooling</span>
+            </div>
+            <div class="row edu d-flex justify-content-around align-items-center">
+                <div class="col-6 d-flex justify-content-end align-items-center">
+                    <div class="edu-left">
+                        <a href="https://sjbsvm.exattosoft.com/" target="_blank">
+                            <h1>Shriji Baba Saraswati Vidya Mandir</h1>
+                        </a>
+                        <h3>Completed my 10th grade education with distinction in 2017, achieving a remarkable CGPA of
+                            9.8.</h3>
+                        <div class="cover">
+                            <div class="cover-front">
+                                <div class="img_box">
+                                    <img src="./assets/shriji.jpeg"></a>
                                 </div>
                             </div>
-                        </div>
-                    </div>
-                    <div class="lang-m">
-                        <div class="lang">
-                            <div class="lang-detail">
-                                <div class="lang-about">
-                                    <img src="./assets/java.png">
-                                    <div class="lang-name">
-                                        <div class="name-contain">
-                                            <span class="name java">Java</span>
-                                            <span class="lang-knowlegde"> Intermediate</span>
-                                        </div>
-                                        <div class="lang-check int">
-                                            <img src="./assets/checkmark.png">
-                                            <img src="./assets/checkmark.png">
-
-                                        </div>
-                                    </div>
-                                </div>
+                            <div class="cover-back">
+                                <h1>Secondary</h1>
                             </div>
                         </div>
                     </div>
                 </div>
-                <div class="lang-right">
-                    <div class="lang-m">
-                        <div class="lang">
-                            <div class="lang-detail">
-                                <div class="lang-about">
-                                    <img  src="./assets/javascript.png">
-                                    <div class="lang-name">
-                                        <div class="name-contain">
-                                            <span class="name  js">JS</span>
-                                            <span class="lang-knowlegde">Intermediate</span>
-                                        </div>
-                                        <div class="lang-check int">
-                                            <img src="./assets/checkmark.png">
-                                            <img src="./assets/checkmark.png">
-                                            
-                                        </div>
-                                    </div>
+                <div class="col-6 d-flex justify-content-end align-items-center">
+                    <div class="edu-left">
+                        <a href="https://sjbsvm.exattosoft.com/" target="_blank">
+                            <h1>Shriji Baba Saraswati Vidya Mandir</h1>
+                        </a>
+                        <h3>I graduated from the 12th grade in 2019 with distinction, achieving a notable percentage of
+                            90.8%,
+                            highlighting my dedication to scholastic success.</h3>
+                        <div class="cover">
+                            <div class="cover-front">
+                                <div class="img_box">
+                                    <img src="./assets/shriji2.jpeg"></a>
                                 </div>
                             </div>
-                        </div>
-                    </div>
-                    <div class="lang-m">
-                        <div class="lang">
-                            <div class="lang-detail">
-                                <div class="lang-about">
-                                    <img src="./assets/python.png">
-                                    <div class="lang-name">
-                                        <div class="name-contain">
-                                            <span class="name py">Python</span>
-                                            <span class="lang-knowlegde "> Beginner</span>
-                                        </div>
-                                        <div class="lang-check beg">
-                                            <img src="./assets/checkmark.png">
-                                        </div>
-                                    </div>
-                                </div>
+                            <div class="cover-back">
+                                <h1> Higher Secondary</h1>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
-        </section>
-        <section class="skills-known">
-            <nav class="skill">
-                Skills Known
-            </nav>
-            <div class="lang-control  skill-control">
-                <div class="lang-left">
-                    <div class="lang-m">
-                        <div class="lang">
-                            <div class="lang-detail">
-                                <div class="lang-about">
-                                    <img src="./assets/html.png">
-                                    <div class="lang-name">
-                                        <div class="name-contain">
-                                            <span class="name html"id="fontt">Html</span>
-                                            <span class="lang-knowlegde"> Advanced</span>
-                                        </div>
-                                        <div class="lang-check adv">
-                                            <img src="./assets/checkmark.png">
-                                            <img src="./assets/checkmark.png">
-                                            <img src="./assets/checkmark.png">
-
-                                        </div>
-                                    </div>
+            <div class="subheading d-flex justify-content-center align-items-center p-0 m-0">
+                <span>Collage</span>
+            </div>
+            <div class="row edu d-flex justify-content-around align-items-center">
+                <div class="col-6 d-flex justify-content-end align-items-center">
+                    <div class="edu-left">
+                        <a href="https://dbrau.ac.in//" target="_blank">
+                            <h1>Dr Bhimrao Ambedkar University</h1>
+                        </a>
+                        <h3>Successfully completed my graduation in B.Sc(PCM) in 2022, demonstrating determination and
+                            commitment to academic growth</h3>
+                        <div class="cover">
+                            <div class="cover-front">
+                                <div class="img_box">
+                                    <img src="./assets/dbrau.jpeg">
                                 </div>
                             </div>
-                        </div>
-                    </div>
-                    <div class="lang-m">
-                        <div class="lang">
-                            <div class="lang-detail">
-                                <div class="lang-about">
-                                    <img src="./assets/css.png">
-                                    <div class="lang-name">
-                                        <div class="name-contain">
-                                            <span class="name css"id="fontt">CSS</span>
-                                            <span class="lang-knowlegde"> Advanced</span>
-                                        </div>
-                                        <div class="lang-check adv">
-                                            <img src="./assets/checkmark.png">
-                                            <img src="./assets/checkmark.png">
-                                            <img src="./assets/checkmark.png">
-
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="lang-m">
-                        <div class="lang">
-                            <div class="lang-detail">
-                                <div class="lang-about">
-                                    <img src="./assets/react.png">
-                                    <div class="lang-name">
-                                        <div class="name-contain">
-                                            <span class="name react"id="fontt">React.js</span>
-                                            <span class="lang-knowlegde"> Beginner</span>
-                                        </div>
-                                        <div class="lang-check beg">
-                                            <img src="./assets/checkmark.png">
-                                            <img src="./assets/checkmark.png">
-
-                                        </div>
-                                    </div>
-                                </div>
+                            <div class="cover-back">
+                                <h1>Gradution</h1>
                             </div>
                         </div>
                     </div>
                 </div>
-                <div class="lang-right">
-                    <div class="lang-m">
-                        <div class="lang">
-                            <div class="lang-detail">
-                                <div class="lang-about">
-                                    <img  src="./assets/vscode.png">
-                                    <div class="lang-name">
-                                        <div class="name-contain">
-                                            <span class="name  vs"id="fontt">VsCode</span>
-                                            <span class="lang-knowlegde">Intermediate</span>
-                                        </div>
-                                        <div class="lang-check int">
-                                            <img src="./assets/checkmark.png">
-                                            <img src="./assets/checkmark.png">
-                                            
-                                        </div>
-                                    </div>
+                <div class="col-6 d-flex justify-content-end align-items-center">
+                    <div class="edu-left">
+                        <a href="https://www.bsacet.org/" target="_blank">
+                            <h1>B.S.A College of Engineering and Technology</h1>
+                        </a>
+                        <h3>Currently pursuing my Master of Computer Applications (MCA) with a CGPA of 8.06,
+                            demonstrating a
+                            strong commitment to academic excellence and a passion for computer science.</h3>
+                        <div class="cover">
+                            <div class="cover-front">
+                                <div class="img_box">
+                                    <img src="./assets/bsacet.jpeg">
                                 </div>
                             </div>
-                        </div>
-                    </div>
-                    <div class="lang-m">
-                        <div class="lang">
-                            <div class="lang-detail">
-                                <div class="lang-about">
-                                    <img src="./assets/git.png">
-                                    <div class="lang-name">
-                                        <div class="name-contain">
-                                            <span class="name git"id="fontt">GIT</span>
-                                            <span class="lang-knowlegde">Intermediate</span>
-                                        </div>
-                                        <div class="lang-check int">
-                                            <img src="./assets/checkmark.png">
-                                            <img src="./assets/checkmark.png">
-                                            <img src="./assets/checkmark.png">
-
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="lang-m">
-                        <div class="lang">
-                            <div class="lang-detail">
-                                <div class="lang-about">
-                                    <img src="./assets/github.png">
-                                    <div class="lang-name">
-                                        <div class="name-contain">
-                                            <span class="name github"id="fontt">GitHub</span>
-                                            <span class="lang-knowlegde ">Intermediate</span>
-                                        </div>
-                                        <div class="lang-check int">
-                                            <img src="./assets/checkmark.png">
-                                        </div>
-                                    </div>
-                                </div>
+                            <div class="cover-back">
+                                <h1>Post Gradution</h1>
                             </div>
                         </div>
                     </div>
                 </div>
-            </div>
-        </section>
-    </section>
-    <hr>
-    </main>
-    <footer>
-        <div class="footer">
-            <div class="footer-first">
-                <h3>Ganesh's Devloper Portfolio</h3>
-            </div>
-            <div class="footer-second">
-                <ul>
-                    <li>Home</li>
-                    <li>About</li>
-                    <li>Services</li>
-                    <li>Contact</li>
-                </ul>
-            </div>
-            <div class="footer-thrid">
-                <ul>
-                    <li>Home</li>
-                    <li>About</li>
-                    <li>Services</li>
-                    <li>Contact</li>
-                </ul>
-            </div>
-            <div class="footer-fourth">
-                <ul>
-                    <li>Home</li>
-                    <li>About</li>
-                    <li>Services</li>
-                    <li>Contact</li>
-                </ul>
             </div>
         </div>
-        <div class="footer-rights">
-            CopyRights &#169 www.ganeshsortfolio.com | All Right reservrd
+    </section>
+    <hr>
+
+    <section class="skill_wrapper" id="Skills">
+        <div class="container-fluid">
+            <div class="row ">
+                <div class="col-12 d-flex justify-content-md-start align-items-center justify-content-center">
+                    <span class="heading odd d-none d-md-flex">
+                        Skills & Technologies I have worked on:
+                    </span>
+                    <span class="heading odd d-md-none d-flex">
+                        Skills
+                    </span>
+                </div>
+            </div>
+            <div class="skill-heading  mt-4 d-flex p-3 justify-content-center align-items-center">
+                <span>Language Known</span>
+            </div>
+            <div class="container lk">
+                <div class="row">
+                    <div class="col-md-6 d-flex justify-content-md-start justify-content-center align-items-center">
+                        <div class="lang-m">
+                            <div class="lang">
+                                <div class="lang-detail">
+                                    <div class="lang-about">
+                                        <img src="./assets/c.png">
+                                        <div class="lang-name">
+                                            <div class="name-contain">
+                                                <span class="name c">C</span>
+                                                <span class="lang-knowlegde"> Advanced</span>
+                                            </div>
+                                            <div class="lang-check adv">
+                                                <img src="./assets/checkmark.png">
+                                                <img src="./assets/checkmark.png">
+                                                <img src="./assets/checkmark.png">
+
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 d-flex justify-content-md-start justify-content-center align-items-center">
+                        <div class="lang-m">
+                            <div class="lang">
+                                <div class="lang-detail">
+                                    <div class="lang-about">
+                                        <img src="./assets/javascript.png">
+                                        <div class="lang-name">
+                                            <div class="name-contain">
+                                                <span class="name  js">JS</span>
+                                                <span class="lang-knowlegde">Intermediate</span>
+                                            </div>
+                                            <div class="lang-check int">
+                                                <img src="./assets/checkmark.png">
+                                                <img src="./assets/checkmark.png">
+
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-6 d-flex justify-content-md-end justify-content-center align-items-center">
+                        <div class="lang-m">
+                            <div class="lang">
+                                <div class="lang-detail">
+                                    <div class="lang-about">
+                                        <img src="./assets/java.png">
+                                        <div class="lang-name">
+                                            <div class="name-contain">
+                                                <span class="name java">Java</span>
+                                                <span class="lang-knowlegde"> Intermediate</span>
+                                            </div>
+                                            <div class="lang-check int">
+                                                <img src="./assets/checkmark.png">
+                                                <img src="./assets/checkmark.png">
+
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 d-flex justify-content-md-end justify-content-center align-items-center">
+                        <div class="lang-m">
+                            <div class="lang">
+                                <div class="lang-detail">
+                                    <div class="lang-about">
+                                        <img src="./assets/python.png">
+                                        <div class="lang-name">
+                                            <div class="name-contain">
+                                                <span class="name py">Python</span>
+                                                <span class="lang-knowlegde "> Beginner</span>
+                                            </div>
+                                            <div class="lang-check beg">
+                                                <img src="./assets/checkmark.png">
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="skill-heading  mt-4 d-flex p-3 justify-content-center align-items-center">
+                <span> Skills Known</span>
+            </div>
+            <div class="container sk">
+                <div class="row">
+                    <div class="col-md-6 d-flex justify-content-md-start justify-content-center align-items-center">
+                        <div class="lang-m">
+                            <div class="lang">
+                                <div class="lang-detail">
+                                    <div class="lang-about">
+                                        <img src="./assets/html.png">
+                                        <div class="lang-name">
+                                            <div class="name-contain">
+                                                <span class="name html" id="fontt">Html</span>
+                                                <span class="lang-knowlegde"> Advanced</span>
+                                            </div>
+                                            <div class="lang-check adv">
+                                                <img src="./assets/checkmark.png">
+                                                <img src="./assets/checkmark.png">
+                                                <img src="./assets/checkmark.png">
+
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 d-flex justify-content-md-start justify-content-center align-items-center">
+                        <div class="lang-m">
+                            <div class="lang">
+                                <div class="lang-detail">
+                                    <div class="lang-about">
+                                        <img src="./assets/vscode.png">
+                                        <div class="lang-name">
+                                            <div class="name-contain">
+                                                <span class="name  vs" id="fontt">VsCode</span>
+                                                <span class="lang-knowlegde">Intermediate</span>
+                                            </div>
+                                            <div class="lang-check int">
+                                                <img src="./assets/checkmark.png">
+                                                <img src="./assets/checkmark.png">
+
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-6 d-flex justify-content-md-end justify-content-center align-items-center">
+                        <div class="lang-m">
+                            <div class="lang">
+                                <div class="lang-detail">
+                                    <div class="lang-about">
+                                        <img src="./assets/css.png">
+                                        <div class="lang-name">
+                                            <div class="name-contain">
+                                                <span class="name css" id="fontt">CSS</span>
+                                                <span class="lang-knowlegde"> Advanced</span>
+                                            </div>
+                                            <div class="lang-check adv">
+                                                <img src="./assets/checkmark.png">
+                                                <img src="./assets/checkmark.png">
+                                                <img src="./assets/checkmark.png">
+
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 d-flex justify-content-md-end justify-content-center align-items-center">
+                        <div class="lang-m">
+                            <div class="lang">
+                                <div class="lang-detail">
+                                    <div class="lang-about">
+                                        <img src="./assets/git.png">
+                                        <div class="lang-name">
+                                            <div class="name-contain">
+                                                <span class="name git" id="fontt">GIT</span>
+                                                <span class="lang-knowlegde">Intermediate</span>
+                                            </div>
+                                            <div class="lang-check int">
+                                                <img src="./assets/checkmark.png">
+                                                <img src="./assets/checkmark.png">
+                                                <img src="./assets/checkmark.png">
+
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-6 d-flex justify-content-md-start justify-content-center align-items-center">
+                        <div class="lang-m">
+                            <div class="lang">
+                                <div class="lang-detail">
+                                    <div class="lang-about">
+                                        <img src="./assets/react.png">
+                                        <div class="lang-name">
+                                            <div class="name-contain">
+                                                <span class="name react" id="fontt">React.js</span>
+                                                <span class="lang-knowlegde">Intermediate</span>
+                                            </div>
+                                            <div class="lang-check int">
+                                                <img src="./assets/checkmark.png">
+                                                <img src="./assets/checkmark.png">
+
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 d-flex justify-content-md-start justify-content-center align-items-center">
+                        <div class="lang-m">
+                            <div class="lang">
+                                <div class="lang-detail">
+                                    <div class="lang-about">
+                                        <img src="./assets/github.png">
+                                        <div class="lang-name">
+                                            <div class="name-contain">
+                                                <span class="name github" id="fontt">GitHub</span>
+                                                <span class="lang-knowlegde ">Intermediate</span>
+                                            </div>
+                                            <div class="lang-check int">
+                                                <img src="./assets/checkmark.png">
+                                                <img src="./assets/checkmark.png">
+
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <hr>
+
+    <section class="project_wrapper" id="Projects">
+        <div class="container-fluid">
+            <div class="row ">
+                <div class="col-12 d-flex justify-content-md-end align-items-center justify-content-center">
+                    <span class="heading even">
+                        My Projects
+                    </span>
+                </div>
+            </div>
+            <div class="row a d-flex justify-content-center justify-content-md-start align-items-center">
+                <div class="col-md-9 d-flex b justify-content-center align-items-center">
+                    <div class="project-img img-fluid">
+                        <img src="./Assets/tjs.jpg" alt="">
+                    </div>
+                    <div class="project-content">
+                        <div class="prj-heading d-flex justify-content-center align-items-center">
+                            <span>TJS- Full-Stack Website</span>
+                        </div>
+                        <div class="content  d-sm-flex d-none">
+                            <ul>
+                                <li>
+                                    <strong>Interactive User Interface:</strong> The website boasts an engaging and
+                                    user-friendly interface created with HTML, CSS, and Bootstrap. It provides a
+                                    seamless
+                                    browsing experience for customers looking to order mouthwatering burgers.
+                                </li>
+                                <li>
+                                    <strong>User Registration and Authentication:</strong> For a personalized
+                                    experience,
+                                    users can register
+                                    and log in securely. This feature was implemented using Servlets and JSP for
+                                    server-side
+                                    processing.
+                                </li>
+                                <li>
+                                    <strong>Responsive Design:</strong> The website is responsive and adapts to various
+                                    screen sizes, ensuring a seamless experience for users on both desktop and mobile
+                                    devices.
+                                </li>
+                                <center>
+                                    <a href="https://github.com/Ganeshpachauri/The-Juciy-Stack" class="btn"
+                                        target="_blank">View</a>
+                                </center>
+                            </ul>
+
+                        </div>
+                        <div class="content  d-sm-none d-flex">
+                            <div>
+                                The Juicy Stack represents my commitment to building functional and aesthetically
+                                pleasing web applications. It demonstrates my proficiency in full-stack development and
+                                my ability to create a real-world project that provides value to users. I am proud to
+                                present this project in my portfolio as a testament to my skills and dedication to web
+                                development.
+                                <center>
+                                    <a href="https://github.com/Ganeshpachauri/The-Juciy-Stack" class="btn"
+                                        target="_blank">View</a>
+                                </center>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+            <div class="row a d-flex justify-content-center justify-content-md-end align-items-center ">
+                <div class="col-md-9 d-flex b justify-content-center align-items-center">
+
+                    <div class="project-content">
+                        <div class="prj-heading d-flex justify-content-center align-items-center">
+                            <span> Personal Portfolio Website</span>
+                        </div>
+                        <div class="content  d-sm-flex d-none">
+                            <ul>
+                                <li>
+                                    <strong>Responsive Design:</strong> The website is meticulously designed to ensure
+                                    it looks & functions flawlessly on various devices, from desktop computers to
+                                    Phones, thanks to the use of responsive web design principles and Bootstrap.
+                                </li>
+                                <li>
+                                    <strong> About Me:</strong> The "About Me" section provides a glimpse into my
+                                    background, interests, and goals, adding a personal touch to the portfolio and
+                                    providing visitors with a comprehensive view of my work.
+                                </li>
+                                <li>
+                                    <strong>Contact Form:</strong> To encourage collaboration and inquiries, I
+                                    incorporated a user-friendly contact form, which enables visitors to reach out to me
+                                    directly.
+                                </li>
+                                <center>
+                                    <a href="https://github.com/Ganeshpachauri/Ganesh-portfolio" class="btn"
+                                        target="_blank">
+                                        View</a>
+                                </center>
+                            </ul>
+
+                        </div>
+                        <div class="content  d-sm-none d-flex">
+                            <div>
+                                My "Personal Portfolio Website" is a testament to my commitment to web development and
+                                my ability to create a professional online presence. It serves as both a showcase of my
+                                skills and a platform for connecting with potential employer. I am proud to present this
+                                project in my portfolio, and I'm excited to continue evolving as a web developer and
+                                creator.
+                                <center>
+                                    <a href="https://github.com/Ganeshpachauri/Ganesh-portfolio" class="btn"
+                                        target="_blank">
+                                        View</a>
+                                </center>
+                            </div>
+                        </div>
+
+
+                    </div>
+                    <div class="project-img img-fluid d-flex">
+                        <img src="./Assets/logo.jpg" alt="">
+                    </div>
+
+                </div>
+
+            </div>
+            <div class="row a d-flex justify-content-center justify-content-md-start align-items-center">
+                <div class="col-md-9 d-flex b justify-content-center align-items-center">
+                    <div class="project-img img-fluid">
+                        <img src="./Assets/poker.jpg" alt="">
+                    </div>
+                    <div class="project-content">
+                        <div class="prj-heading d-flex justify-content-center align-items-center">
+                            <span> Console Poker Game</span>
+                        </div>
+                        <div class="content d-sm-flex d-none">
+                            <ul>
+                                <li>
+                                    <strong>User-Friendly Interface:</strong> Despite the console-based environment, the
+                                    game offers an intuitive and user-friendly interface. Players can easily navigate
+                                    and interact with the game using simple text-based commands.
+                                </li>
+                                <li>
+                                    <strong>Full Use of C:</strong> This project serves as a testament to my proficiency
+                                    in C programming. I implemented all aspects of the game, including game logic, input
+                                    handling, random card generation, and user interaction, solely in C.
+                                </li>
+                                <li>
+                                    <strong>Poker Gameplay:</strong>The game faithfully recreates the rules and
+                                    strategies of poker, providing players with an authentic poker.
+                                </li>
+                                <center>
+                                    <a href="https://github.com/Ganeshpachauri/poker" target="_blank" class="btn">
+                                        View</a>
+                                </center>
+                            </ul>
+
+                        </div>
+                        <div class="content  d-sm-none d-flex">
+                            <div>
+                                My "Console Poker Game" is a testament to my dedication to both C programming and game
+                                development. It represents the fusion of technical skill and creativity. This project
+                                exemplifies my ability to create immersive experiences even within the constraints of a
+                                text-based environment, making it a valuable addition to my portfolio as a C developer
+                                and game enthusiast.
+                                <center>
+                                    <a href="https://github.com/Ganeshpachauri/poker" target="_blank" class="btn">
+                                        View</a>
+                                </center>
+                            </div>
+                        </div>
+
+
+                    </div>
+
+                </div>
+
+            </div>
+        </div>
+    </section>
+    <hr>
+
+    <section class="contact_wrapper">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-12 d-flex justify-content-md-start align-items-center justify-content-center">
+                    <span class="heading odd">
+                        Contact Me
+                    </span>
+                </div>
+            </div>
+        </div>
+        <div class="titles">
+            <p class="section__text__p1">Get in Touch</p>
+            <span>Contact Me</span>
+        </div>
+        <div class="container d-flex justify-content-center align-items-center">
+            <div class="contact-content d-flex justify-content-around align-items-center">
+                <p><a href="mailto:ganeshpachauri26@gmail.com" class="btn" target="_blank">Gmail</a></p>
+                <p><a href="https://www.linkedin.com/in/ganeshpachauri/" class="btn" target="_blank">LinkedIn</a></p>
+                <p><a href="https://github.com/Ganeshpachauri" class="btn" target="_blank">GitHub</a></p>
+            </div>
+        </div>
+        <div class="resume d-flex justify-content-center align-items-center">
+            <button class="btn" onclick="window.open(`Assets/GANESH_RESUME.pdf`)"> download resume</button>
+        </div>
+    </section>
+
+    <footer class="footer_wrapper">
+        <div class="container-fluid">
+            <div class="footer-content d-flex justify-content-center align-items-center">
+                <p>Copyright &#169; 2023 Ganesh Pachauri. All Rights Reserved.</p>
+            </div>
         </div>
     </footer>
+
     <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
     <script>
-        var typed = new Typed('#element', {
-            strings: ['Web Devloper,', 'Java Devloper', 'और', 'CS Student'],
-            typeSpeed: 80,
-        });
         var typedVakr = new Typed('#vakr', {
             strings: ['वक्रतुण्डं गजाननम् तव पदे अस्ति सुखं |'],
             typeSpeed: 100,
@@ -514,7 +832,18 @@
             typeSpeed: 80,
             loop: true
         });
+        var typed = new Typed('#element', {
+            strings: ['Web Devloper', 'Java Devloper', 'और', 'CS Student'],
+            typeSpeed: 80,
+        });
     </script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"
+        integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js"
+        integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF"
+        crossorigin="anonymous"></script>
+    <script src="./js/main.js"></script>
 </body>
 
 </html>
